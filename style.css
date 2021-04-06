@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(225, 225, 225);
+}
+/*Classes auxiliares*/
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding:0 2%;
+}
+
+.clear{
+    clear: both;
+}
+
+.w50{
+    float: left;
+    width: 50%;
+    padding:0 10px;
+}
+
+.w100{
+    float: left;
+    width: 100%;
+    padding: 0 10px;
+}
+
+/*Estilo própio*/
+
+h2{
+    text-align: center;
+    color: #4286f4;
+    padding: 10px 0;
+    font-size: 24px;
+    border-bottom: 2px solid #4286f4;
+    text-transform: uppercase;    
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 10px;
+    color: #646464;
+}
+
+.form-group input[type=text]{
+    width: 100%;
+    padding-left: 8px;
+    height: 40px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+.form-group input[type=submit]{
+    width: 140px;
+    height: 40px;
+    background: #4286f4;
+    color: white;
+    border: 0;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.form-group textarea{
+    width: 100%;
+    height: 120px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/*Responsivo*/
+
+@media screen and (max-width: 500px) {
+    .w50{width: 100%;}
+}
